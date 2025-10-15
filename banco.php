@@ -14,7 +14,7 @@ $sql = "SELECT * FROM tb_alunos";
 $result = $conn->query($sql);
 echo "<body style='background-color:#ADD8E6;'>";
 echo "<center>";
-echo "<h1>SWeb1 - Luiz Fernando e Joao Portela -  7401-6511</h1>";
+echo "<h1>SWeb1 - Luiz Fernando e Joao Portela - 7401-6511</h1>";
 echo "<img src='https://abre.ai/banneracme'>";
 if ($result->rowCount() > 0) {
 	echo "<table border='1' align='center'>";
